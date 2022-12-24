@@ -14,7 +14,6 @@ import {
   NavBtnLink,
 } from "./Navbarstyle";
 import { FaBars } from "react-icons/fa";
-import { IconContext } from "react-icons";
 
 const Navbar = ({ toggle, isOpen }) => {
   const [scrollNav, SetScrollNav] = useState(false);

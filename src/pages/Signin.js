@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../Components/Navbar/Navbar'
+import Signupform from '../Components/Signup/SignupForm'
 
 const Signin = () => {
   return (
-    <div>
-      <h1>Testing this page</h1>
-    </div>
+    <>
+    <Navbar/>
+    <Signupform/>
+    </>
   )
 }
 
